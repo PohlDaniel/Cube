@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cs">
+      <UniqueIdentifier>{f1603996-e43b-4a65-b9db-b1c2981fc1d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cs\enet">
+      <UniqueIdentifier>{dba6d1c7-5b5b-4f45-8be8-2df5bc25a47b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{d6c7b6b3-7ad3-4d14-aaf8-a73e2d85f2ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="render">
+      <UniqueIdentifier>{b2cc5b0a-b285-4d95-b414-bc3a98656f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="support">
+      <UniqueIdentifier>{233230a6-3620-44d6-afde-81d9cb4e56d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="world">
+      <UniqueIdentifier>{5e01212c-dff1-42c4-8231-f31c79d38b23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\eneth">
+      <UniqueIdentifier>{325fd4e7-4195-4571-95b3-34975d3776bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\client.cpp">
+      <Filter>cs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clientextras.cpp">
+      <Filter>cs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clientgame.cpp">
+      <Filter>cs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clients2c.cpp">
+      <Filter>cs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server.cpp">
+      <Filter>cs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\serverbrowser.cpp">
+      <Filter>cs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\serverms.cpp">
+      <Filter>cs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\serverutil.cpp">
+      <Filter>cs</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\callbacks.c">
+      <Filter>cs\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\host.c">
+      <Filter>cs\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\list.c">
+      <Filter>cs\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\memory.c">
+      <Filter>cs\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\packet.c">
+      <Filter>cs\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\peer.c">
+      <Filter>cs\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\protocol.c">
+      <Filter>cs\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\unix.c">
+      <Filter>cs\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\win32.c">
+      <Filter>cs\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entities.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\monster.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\savegamedemo.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\weapon.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendercubes.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderextras.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendergl.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendermd2.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderparticles.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rendertext.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\command.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\console.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\menus.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pch.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sound.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools.cpp">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editing.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rndmap.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\world.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\worldio.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\worldlight.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\worldocull.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\worldrender.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\cube.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\protos.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\enet\enet.h">
+      <Filter>headers\eneth</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\enet\list.h">
+      <Filter>headers\eneth</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\enet\memory.h">
+      <Filter>headers\eneth</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\enet\protocol.h">
+      <Filter>headers\eneth</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\enet\time.h">
+      <Filter>headers\eneth</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\enet\types.h">
+      <Filter>headers\eneth</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\enet\unix.h">
+      <Filter>headers\eneth</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\enet\utility.h">
+      <Filter>headers\eneth</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\enet\win32.h">
+      <Filter>headers\eneth</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

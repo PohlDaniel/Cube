@@ -1,0 +1,33 @@
+SDL  1.2		https://github.com/libsdl-org/SDL-1.2/tree/release-1.2.15
+				-> use solution of VisualC
+				-> get SDL_config.h out of https://libsdl.org/release/SDL-devel-1.2.15-VC.zip and copy it to SDL/include
+				-> build SDL and SDLmain
+				
+				
+SDL_mixer 1.2	https://libsdl.org/projects/SDL_mixer/release/SDL_mixer-1.2.12.zip
+				-> use solution of VisualC
+				-> copy the files out of SDL/include to SDL_mixer/VisualC/eternal/inlcude
+				-> copy the built SDL.lib to SDL_mixer/VisualC/eternal/lib/x86
+				-> add the external/include folder to the projects "native_midi" and "timidity"
+				-> add the library path SDL_mixer/VisualC/eternal/lib/x86 to the project "SDL_mixer"
+				-> build SDL_mixer
+
+SDL_image 1.2	https://www.libsdl.org/projects/SDL_image/release/SDL_image-1.2.12.zip
+				-> use solution of VisualC
+				-> copy the files out of SDL/include to SDL_image/VisualC/eternal/inlcude
+				-> copy the built SDL.lib to SDL_image/VisualC/eternal/lib/x86
+				-> add the library path SDL_mixer/VisualC/eternal/lib/x86 to the project "SDL_image"
+				-> build SDL_image
+
+zlib 1.2.11		https://zlib.net/
+				-> create solution with cmake
+				-> build zlib
+				-> use zlib.lib and zlib.dll
+				-> use zconf.h and zlib.h for including in other project's
+				
+Cube 			-> copy SDL.lib SDLmain.lib SDL_image.lib SDL_mixer.lib to Cube/01Cube/lib
+				-> build the porject 01Cube out of the Cube.sln
+				-> copy the built SDL.dll, SDL_image.dll, SDL_mixer.dll and zlib.dll to Cube/build/bin
+				-> copy the zlib1.dll, libjpeg-8.dll, libpng15-15.dll out of SDL_image/VisualC/external/lib/x86 to Cube/build/bin
+				-> start the client with Cube/build/cube.bat
+				-> start the server with Cube/build/server.bat
